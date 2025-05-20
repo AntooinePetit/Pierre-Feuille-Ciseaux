@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pierre-feuille-ciseaux</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Pierre-feuille-ciseaux</h1>
+  <div id="score">
+    <div>
+      <h2>Joueur</h2>
+      <p id="joueur">0</p>
+    </div>
+    <div>
+      <h2>Ordinateur</h2>
+      <p id="ordinateur">0</p>
+    </div>
+  </div>
+
+  <p id="label-result">Résultat : </p>
+  <p id="result"></p>
+
+  <form action="#">
+    <select name="player-choice" id="player-choice">
+      <option value="pierre">Pierre</option>
+      <option value="feuille">Feuille</option>
+      <option value="ciseaux">Ciseaux</option>
+    </select>
+    <input type="submit" value="Jouer">
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
